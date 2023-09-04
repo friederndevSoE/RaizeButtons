@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+gap: 60px;
+}
+
+
+button{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px 60px;
+  border-radius: 60px;
+}
+
+/* button:focus {
+  outline-color: transparent;   
+  outline-style:solid;
+  box-shadow: 0 0 0 2px rgba(74, 113, 240, 1);
+} */
+
+.button1{
+  background-color: rgba(74, 113, 240, 1);
+  border: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+.button1:hover {
+  background-color:rgba(255, 255, 255, 1);
+  border: 1px solid rgba(74, 113, 240, 1);
+  color: rgba(74, 113, 240, 1);
+  transition: 0.3s;
+}
+
+.button1:active {
+  background-color: rgba(234, 238, 254, 1);
+}
+
+.button2{
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(74, 113, 240, 1);
+  border: 1px solid rgba(74, 113, 240, 1);
+}
+
+.button2:hover {
+  background-color:rgba(74, 113, 240, 1);
+  /* border: 1px solid ; */
+  color: rgba(255, 255, 255, 1);
+  transition: 0.3s;
+}
+
+.button2:active {
+  background-color: rgba(234, 238, 254, 1);
+  color: rgba(74, 113, 240, 1);
+}
